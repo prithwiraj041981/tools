@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>        
+<SeleniumTestData>            
+<chromepath>/Users/fpath/Downloads/chromedriver2</chromepath>
+<firstname>MITHUN</firstname>
+<lastname>ROY</lastname>
+<email>m.r@gmail.com</email>
+<username>mroy001</username>
+<amount>10000</amount>
+</SeleniumTestData>

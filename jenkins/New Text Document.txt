@@ -1,0 +1,25 @@
+f5a886f559c84ba8b98f1b324053946e
+
+
+C:\ROC\RentOcloud
+
+testng1,testng 2 ,sayan 1 ,mavenselenium has the code
+
+
+java -jar jenkins.war --enable-future-java --httpPort=9090
+
+http://localhost:9090/login?from=%2F  --jenkin server
+where can i find the workspace directory for jenkins in windows--C:\Users\Owner\.jenkins
+C:\ROC\ebaywebsite\ebay_runner.bat
+192.168.0.10:9090/
+
+http://192.168.0.10:9090/login?from=%2F
+
+git+maven+selenium+maven  batch file is on C:\tools\mavengitselenium
+
+
+
+cd C:\\ROC\\AvijitFlight
+taskkill /im excel.exe /f
+call mvn compile
+call mvn clean test -Dsurefire.suiteXmlFiles=testng.xml

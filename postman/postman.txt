@@ -1,0 +1,23 @@
+Api key: PMAK-63c504dd2d9422023b593f26-e785fd5cb9aba599b63241c5582eadcdc1
+
+https://youtu.be/wC1scc-mVoM
+
+
+//*[@id="root"]/div/div[2]/section/main/div[3]/div/form/div/div/div/div/div[1]/div/div[2]/div/div
+
+ant-select-selector
+
+//*[@class="ant-select ant-select-single ant-select-show-arrow"]/div[1]
+
+
+
+
+/html/body/div[3]/div/div/div/div[2]/div[1]/div/div/div[1]/div/div/div[1]
+
+
+/html/body/div[3]/div/div/div/div[2]/div[1]/div/div/div[1]/div/div/div[1]
+
+
+
+
+<div class="ant-select-selector"><span class="ant-select-selection-search"><input type="search" autocomplete="off" class="ant-select-selection-search-input" role="combobox" aria-haspopup="listbox" aria-owns="rc_select_8_list" aria-autocomplete="list" aria-controls="rc_select_8_list" aria-activedescendant="rc_select_8_list_0" value="" id="rc_select_8" aria-expanded="false"></span><span class="ant-select-selection-item" title="Xx Barber Shop, Feature Stone, Station Road, Castle Cary, BA7 7BU">Xx Barber Shop, Feature Stone, Station Road, Castle Cary, BA7 7BU</span></div>

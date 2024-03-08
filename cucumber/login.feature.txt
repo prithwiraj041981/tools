@@ -1,0 +1,34 @@
+Feature: Login to ROC Application 
+ 
+Background: 
+   Given User is on ROCLogin page "https://dev.app.rentoncloud.com/"
+  
+   @ValidCredentialsLandlord
+   Scenario: Login with valid Landlord credentials
+      
+    When User enters username as "Prithwiraj011981@mailinator.com" and password as "mylogin123"
+    Then User should be able to login sucessfully to landlord and new page open
+   
+   @ValidCredentialsRenter
+   Scenario: Login with valid Renter credentials 
+
+    When User enters username as "Prithwiraj021981@mailinator.com" and password as "mylogin123"
+    Then User should be able to login sucessfully to renter and new page open
+    
+   @ValidCredentialsTradesman
+   Scenario: Login with valid Tradesman credentials 
+
+    When User enters username as "Prithwiraj031981@mailinator.com" and password as "mylogin123"
+    Then User should be able to login sucessfully and new page open 
+     
+   @InvalidCredentials
+   Scenario Outline: Login with invalid credentials
+      
+    When User enters username as "<username>" and password as "<password>"
+    Then User should be able to see error message "<errorMessage>"
+     
+  Examples:
+  | username   | password  | errorMessage                      |
+  | prithwiraj | admin12   | Invalid credentials               |
+  | rajiv      | admin123  | Invalid credentials               |
+  
